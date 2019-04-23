@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <div class="container-fluid p-0 m-0">
+        <div class="row  p-0 m-0">
+           
+            <div class="col-md-5 p-0 m-0 position-relative">
+                <div id="leftMap">
+                    Maps
+                    
+                </div>
+                <div class="menuRight d-none d-lg-block d-xl-block">
+                    <label class="cat">
+                      <input type="checkbox"  onclick="displayMarkers(this,1);">
+                      <div class="checkmark">Category 1</div>
+                    </label>
+                    <label class="cat">
+                      <input type="checkbox"  onclick="displayMarkers(this,2);">
+                      <div class="checkmark">Category 2</div>
+                    </label>
+                    <label class="cat">
+                      <input type="checkbox"  onclick="displayMarkers(this,3);">
+                      <div class="checkmark">Category 3</div>
+                    </label>
+                    <label class="cat">
+                      <input type="checkbox"  onclick="displayMarkers(this,4);">
+                      <div class="checkmark">Category 4</div>
+                    </label>
+                    <label class="cat">
+                      <input type="checkbox"  onclick="displayMarkers(this,5);">
+                      <div class="checkmark">Category 5</div>
+                    </label>
+                    <label class="cat">
+                      <input type="checkbox"  onclick="displayMarkers(this,6);">
+                      <div class="checkmark">Category 6</div>
+                    </label>
+                </div>
+            </div>
+            <div class="col-sm-12 d-block d-sm-none bg-success p-0 m-0">
+                <div class="menuRightMobile">
+                    <ul>
+                        <label class="cat">
+                            <input type="checkbox"  onclick="displayMarkers(this,1);">
+                            <div class="checkmark">Category 1</div>
+                          </label>
+                          <label class="cat">
+                            <input type="checkbox"  onclick="displayMarkers(this,2);">
+                            <div class="checkmark">Category 2</div>
+                          </label>
+                          <label class="cat">
+                            <input type="checkbox"  onclick="displayMarkers(this,3);">
+                            <div class="checkmark">Category 3</div>
+                          </label>
+                          <label class="cat">
+                            <input type="checkbox"  onclick="displayMarkers(this,4);">
+                            <div class="checkmark">Category 4</div>
+                          </label>
+                          <label class="cat">
+                            <input type="checkbox"  onclick="displayMarkers(this,5);">
+                            <div class="checkmark">Category 5</div>
+                          </label>
+                          <label class="cat">
+                            <input type="checkbox"  onclick="displayMarkers(this,6);">
+                            <div class="checkmark">Category 6</div>
+                          </label>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-7 ">
+                <div id="sectionRight">
+                    <div class="row">
+                        <div class="col-md-12 pt-5 h-30">
+                            <div class="contentTop">
+                                <h2>UNIQUELY SITUATED...</h2>
+                                <p>LINCOLN SQUARE offers luxury condos at the convergence of Lincoln Park, the Gold Coast and Old Town, three neighborhoods with a wealth of recreational activities, cultural institutions, restaurants, shopping and daily conveniences. Connected to the Park, steps from the Lakefront Trail, and a short scenic trip down Lake Shore Drive to Chicago’s Magnificent Mile and the Loop, LINCOLN SQUARE is a gateway to the best experiences Chicago has to offer.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-12 m-0">
+                            <div class="gallery">
+                                <div class="row ">
+                                    <div class="col-md-3 m-0 p-0">
+                                      <div class="card">
+                                        <img src="https://1550onthepark.com/wp-content/uploads/2018/01/FIFTEENFIFTY_Neighborhood_Activites_DSC6884.jpg" alt="">
+                                        <div class="hoverMe"><div class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div></div>
+                                      </div>
+                                    </div>                                   
+                                    <div class="col-md-3 m-0 p-0">
+                                      <div class="card">
+                                        <img src="https://1550onthepark.com/wp-content/uploads/2018/01/FIFTEENFIFTY_Neighborhood_Culture_DSC8933-768x512.jpg" alt="">
+                                        <div class="hoverMe"><div class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div></div>
+                                      </div>
+                                    </div>                                   
+                                    <div class="col-md-3 m-0 p-0">
+                                      <div class="card">
+                                        <img src="https://1550onthepark.com/wp-content/uploads/2018/01/FIFTEENFIFTY_Neighborhood_Dining_DSC3210-768x512.jpg" alt="">
+                                        <div class="hoverMe"><div class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div></div>
+                                      </div>
+                                    </div>                                   
+                                    <div class="col-md-3 m-0 p-0">
+                                      <div class="card">
+                                        <img src="https://1550onthepark.com/wp-content/uploads/2018/01/FIFTEENFIFTY_Neighborhood_Grocery_DSC6605-768x512.jpg" alt="">
+                                        <div class="hoverMe"><div class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div></div>
+                                      </div>
+                                    </div>                                   
+                                    <div class="col-md-3 m-0 p-0">
+                                      <div class="card">
+                                        <img src="https://1550onthepark.com/wp-content/uploads/2018/01/FIFTEENFIFTY_Neighborhood_Nature_DSC6105-768x512.jpg" alt="">
+                                        <div class="hoverMe"><div class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div></div>
+                                      </div>
+                                    </div>                                   
+                                    <div class="col-md-3 m-0 p-0">
+                                      <div class="card">
+                                        <img src="https://1550onthepark.com/wp-content/uploads/2018/01/FIFTEENFIFTY_Neighborhood_Schools_DSC5672-768x512.jpg" alt="">
+                                        <div class="hoverMe"><div class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div></div>
+                                      </div>
+                                    </div>                                   
+                                    <div class="col-md-3 m-0 p-0">
+                                      <div class="card">
+                                        <img src="https://1550onthepark.com/wp-content/uploads/2018/01/FIFTEENFIFTY_Neighborhood_Skyline-Views_DSC1829-768x512.jpg" alt="">
+                                        <div class="hoverMe"><div class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div></div>
+                                      </div>
+                                    </div>                                   
+                                    <div class="col-md-3 m-0 p-0">
+                                      <div class="card">
+                                        <img src="https://1550onthepark.com/wp-content/uploads/2018/01/FIFTEENFIFTY_Neighborhood_Shopping_DSC2174-768x512.jpg" alt="">
+                                        <div class="hoverMe"><div class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div></div>
+                                      </div>
+                                    </div>                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOURKEY&libraries=geometry,places&ext=.js"></script>
+
+
+<script>
+var beaches = [
+     ['A New Leaf', 41.912429, -87.634421, 6],
+['Emmett Rode Salon', 41.9173694, -87.6376526, 6],
+['Fleet Feet Sports – Old Town', 41.911719, -87.634961, 6],
+['Joseph Michael’s Salon and Spa', 41.9062111, -87.6263443, 6],
+['Lincoln Park Shoe Repair', 41.9174248, -87.6377322, 6],
+['Luxury Garage Sale', 41.9126659, -87.6350923, 6],
+['Old Town Gardens Inc.', 41.9107512, -87.634481, 6],
+['Polish and Pour Old Town', 41.9051744, -87.6347198, 6],
+['The Spice House', 41.9095903, -87.6348182, 6],
+['Greenheart Shop', 41.9133971, -87.6350691, 6],
+['Restoration Hardware', 41.9059901, -87.6305044, 6],
+['Judy Maxwell Home', 41.907169, -87.634279, 6],
+['Handle With Care', 41.913337, -87.6351016, 6],
+['K Stonehill Creations', 41.908544, -87.634154, 6],
+['Mitchell Gold + Bob Williams', 41.9105989, -87.647862, 6],
+['CVS', 41.91812, -87.63917, 1],
+['Jewel-Osco', 41.9042174, -87.6317275, 1],
+['Jewel-Osco', 41.9051197, -87.639581, 1],
+['Plum Market Old Town', 41.904931, -87.6341005, 1],
+['Potash Markets- Clark Street', 41.910378, -87.631231, 1],
+['Target', 41.904261, -87.6442345, 1],
+['Treasure Island Foods', 41.9119915, -87.6341602, 1],
+['Green City Market – Lincoln Park', 41.9153611, -87.633542, 1],
+['Mariano’s', 41.9082178, -87.6465493, 1],
+['3 Arts Club Cafe', 41.9059632, -87.6304906, 5],
+['Benchmark', 41.909511, -87.634984, 5],
+['The Blanchard', 41.9175813, -87.6362018, 5],
+['Cafe Brauer.', 41.9193359, -87.6334685, 5],
+['Elaine’s Coffee Call', 41.9152698, -87.6343802, 5],
+['Geja’s Cafe', 41.91858, -87.6379901, 5],
+['GEMINI', 41.9199736, -87.6408742, 5],
+['Happy Camper Pizzeria', 41.904206, -87.634281, 5],
+['Hashbrowns Cafe', 41.9036813, -87.634268, 5],
+['The J. Parker', 41.9152701, -87.6344952, 5],
+['Kamehachi', 41.9100568, -87.6342451, 5],
+['The Kennison', 41.9153662, -87.634498, 5],
+['Mon Ami Gabi', 41.924091, -87.636974, 5],
+['Nookies', 41.9142524, -87.6349632, 5],
+['Old Town Pour House', 41.9081302, -87.6344373, 5],
+['Orso’s', 41.9077662, -87.6343739, 5],
+['Real Good Juice Co.', 41.9125216, -87.6344471, 5],
+['Riccardo Trattoria', 41.9206971, -87.6373806, 5],
+['R.J. Grunts', 41.9200672, -87.6366328, 5],
+['Shore Club', 41.914069, -87.625728, 5],
+['Starbucks', 41.9105564, -87.6320239, 5],
+['Topo Gigio Ristorante', 41.9096739, -87.6348276, 5],
+['Vanille Patisserie', 41.9204846, -87.6376676, 5],
+['Booth One', 41.9060502, -87.6283171, 5],
+['The VIG Chicago', 41.9098826, -87.6343104, 5],
+['SteakBar', 41.9092591, -87.6349936, 5],
+['Cocoa + Co.', 41.9126092, -87.6344968, 5],
+['Catherine Cook School', 41.9078792, -87.6361438, 4],
+['Chalkboard', 41.9148288, -87.6407423, 4],
+['Early Learning Foundations Preschool', 41.9088081, -87.6318606, 4],
+['Francis W. Parker School', 41.9228478, -87.6382188, 4],
+['Franklin Fine Arts Center', 41.9060674, -87.6359593, 4],
+['GEMS Chicago Early Years', 41.923889, -87.6390543, 4],
+['Latin School of Chicago', 41.91096, -87.6312909, 4],
+['Lincoln Park High School', 41.9183978, -87.645997, 4],
+['L&L Academy and Preschool', 41.9249444, -87.6404729, 4],
+['Lincoln Park Preschool & Kindergarten (LPP Belden)', 41.9239619, -87.6371645, 4],
+['Lincoln Park Preschool & Kindergarten (LPP Germania)', 41.9106079, -87.6320405, 4],
+['Lincoln Park Preschool & Kindergarten (LPP Webster)', 41.9217786, -87.6368648, 4],
+['Saint Clement School', 41.928401, -87.646812, 4],
+['Sonnets Academy', 41.9173895, -87.6357469, 4],
+['Benjamin Franklin Monument.', 41.9137846, -87.6310891, 3],
+['Cardinal’s Mansion', 41.9110473, -87.6285353, 3],
+['Chess Pavilion', 41.911304, -87.624987, 3],
+['Chicago Academy of Science', 41.9199897, -87.6373738, 3],
+['Chicago History Museum', 41.9120377, -87.6314917, 3],
+['The Children’s Fountain', 41.9113432, -87.6314455, 3],
+['Graham Foundation for Advanced Studies in the Fine Arts', 41.909606, -87.629154, 3],
+['Farm In The Zoo', 41.9173777, -87.634026, 3],
+['Lincoln Monument', 41.9126199, -87.6302493, 3],
+['Lincoln Park Conservatory', 41.9242075, -87.6353235, 3],
+['Lincoln Park Cultural Center', 41.9196445, -87.6358822, 3],
+['Old Town Triangle Art Center', 41.9146741, -87.6365092, 3],
+['Peggy Notebaert Nature Museum', 41.926803, -87.635322, 3],
+['Park West', 41.918591, -87.637381, 3],
+['The Second City', 41.911526, -87.635373, 3],
+['Ulysses S. Grant Monument', 41.9175577, -87.6308118, 3],
+['Lincoln Park Zoo', 41.9210919, -87.6339909, 3],
+['Steppenwolf Theatre', 41.9118546, -87.6486329, 3],
+['Theater on the Lake', 41.9270782, -87.6306335, 3],
+['Zanies Comedy Night Club', 41.9105208, -87.6348555, 3],
+['Chicago SUP', 41.9130997, -87.6230294, 2],
+['CorePower Yoga', 41.9105712, -87.6322234, 2],
+['The Dailey Method – Lincoln Park', 41.9241043, -87.6392988, 2],
+['Equinox Lincoln Park', 41.914277, -87.633846, 2],
+['FFC Old Town', 41.9048419, -87.6327586, 2],
+['Flow Studio', 41.923189, -87.639307, 2],
+['Flywheel Sports', 41.9127494, -87.6345673, 2],
+['Lincoln Park Boat Club', 41.9238996, -87.6321914, 2],
+['North Avenue Beach South Volleyball Courts', 41.9135653, -87.6224944, 2],
+['Racquet Club of Chicago', 41.9075865, -87.6296596, 2],
+['Shred415 Old Town', 41.904022, -87.635729, 2],
+['SoulCycle Old Town', 41.9046876, -87.6342681, 2],
+['TITLE Boxing Club Chicago Lincoln Park', 41.92606, -87.640642, 2],
+['Wells Street CrossFit', 41.9044675, -87.6342877, 2],
+['Diversey Harbor', 41.9306934, -87.6340619, 2],
+['North Avenue Beach', 41.9172219, -87.6269675, 2],
+['South Pond Pavilion', 41.917178, -87.6323656, 2],
+['Yoga in the Park', 41.9153956, -87.6319259, 2],
+['Whole Foods', 41.894997, -87.62927560000003, 1],
+['Whole Foods', 41.90869449999999, -87.65292929999998, 1]
+    ];
+    
+    var icons = ["",
+    "http://maps.google.com/mapfiles/ms/micons/blue.png",
+    "http://maps.google.com/mapfiles/ms/micons/green.png"];
+
+    var map = new google.maps.Map(document.getElementById('leftMap'), {
+       zoom: 14,
+       center: new google.maps.LatLng(41.914641,-87.639532),
+       streetViewControl: false,
+         disableDefaultUI: true,
+          zoomControl: true,
+         scrollwheel: false,
+       mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var markers = [];
+
+    var i, newMarker;
+    var InforObj = [];
+
+
+    for (i = 0; i < beaches.length; i++) {
+    	if (beaches[i][3] == 1){
+    		icurl = 'http://maps.google.com/mapfiles/ms/icons/pink-dot.png';
+    	} else if (beaches[i][3] == 2){
+    		icurl = 'http://maps.google.com/mapfiles/ms/icons/orange-dot.png';
+    	}
+    	else if (beaches[i][3] == 3){
+    		icurl = 'http://maps.google.com/mapfiles/ms/icons/green-dot.png';
+    	} else if (beaches[i][3] == 4){
+    		icurl = 'http://maps.google.com/mapfiles/ms/icons/ltblue-dot.png';
+    	}else if (beaches[i][3] == 5){
+    		icurl = 'http://maps.google.com/mapfiles/ms/icons/red-dot.png';
+    	} else {
+    		icurl = 'http://maps.google.com/mapfiles/ms/icons/yellow-dot.png';
+    	}
+      
+      var contentString = '<div id="content">' + beaches[i][0] + '</div>';
+      
+      newMarker = new google.maps.Marker({
+      position: new google.maps.LatLng(beaches[i][1], beaches[i][2]),
+      map: map,
+      icon: icurl,
+      title: beaches[i][0]
+    });
+
+      const infowindow = new google.maps.InfoWindow({
+                        content: contentString,
+                        maxWidth: 200
+                    });
+
+      newMarker.addListener('click', function () {
+                        closeOtherInfo();
+                        infowindow.open(newMarker.get('map'), this);
+                        InforObj[0] = infowindow;
+                    });
+
+    newMarker.category = beaches[i][3];
+    newMarker.setVisible(false);
+
+    markers.push(newMarker);
+    }
+
+     function closeOtherInfo() {
+                if (InforObj.length > 0) {
+                    InforObj[0].set("marker", null);
+                    InforObj[0].close();
+                    InforObj.length = 0;
+                }
+            }
+
+     function displayMarkers(obj,category) {
+         var i;
+
+         for (i = 0; i < markers.length; i++)
+         {   
+                 if (markers[i].category === category) {
+                     if ($(obj).is(":checked")) {
+
+                         markers[i].setVisible(true);
+                     } else {
+                         markers[i].setVisible(false);    
+                     }
+                 } 
+
+             }
+
+
+     }  
+</script>	
+
+<style>
+#map_canvas {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px
+}
+</style>
+  </body>
+</html>

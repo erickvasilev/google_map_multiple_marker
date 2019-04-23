@@ -1,0 +1,202 @@
+body{
+    padding:0;
+    margin:0;
+    height: 100%;
+    position: relative;
+}
+
+#leftMap{
+    height: 100vh;
+    width:100%;
+    background: orange;
+    display: table;
+    position: relative;
+}
+/*Menu Right Desktop*/
+.menuRight{
+    display: table;
+    position: absolute;
+    top:20%;
+    right:0;
+    background: yellow;
+}
+.menuRight ul{
+    list-style: none;
+    padding-left: 0;
+    margin:0;
+    background: red;
+}
+.menuRight ul li input[type="checkbox"]{
+    background: orange;
+    padding:10px 15px;
+    width:76px;
+}
+.menuRight .cat{
+    width:150px;
+    display: table ;
+    margin-bottom:0px;
+    position: relative;
+}
+.menuRight .cat input[type="checkbox"]{display: none;}
+.menuRight .cat .checkmark {
+    padding:10px 15px;
+    width:150px;
+    background-color: green;
+    cursor: pointer;
+    transition: background-color 0.3s cubic-bezier(0.65, 0.05, 0.36, 1);
+    border-bottom: 1px solid black;
+}
+.menuRight .cat:hover input ~ .checkmark {
+    background-color: orange;
+}
+.menuRight .cat input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+.menuRight ul li input[type="checkbox"]:checked ~ div {
+    background: red !important;
+ }
+.menuRight ul li a:hover{
+    background: green;
+    text-decoration: none;
+}
+/*End Menu Right Desktop*/
+
+
+
+/*Menu Right Mobile*/
+.menuRightMobile{
+    display: table;
+    background: yellow;
+}
+.menuRightMobile ul{
+    list-style: none;
+    padding-left: 0;
+    margin:0;
+    background: red;
+}
+.menuRightMobile ul li input[type="checkbox"]{
+    background: orange;
+    padding:10px 15px;
+    width:76px;
+}
+.menuRightMobile .cat{
+    
+    width:100%;
+    display: table ;
+    margin-bottom:0px;
+    position: relative;
+}
+.menuRightMobile .cat input[type="checkbox"]{display: none;}
+.menuRightMobile .cat .checkmark {
+    padding:10px 15px;
+    background-color: green;
+    cursor: pointer;
+    transition: background-color 0.3s cubic-bezier(0.65, 0.05, 0.36, 1);
+    border-bottom: 1px solid black;
+}
+.menuRightMobile .cat:hover input ~ .checkmark {
+    background-color: orange;
+}
+.menuRightMobile .cat input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+.menuRightMobile ul li input[type="checkbox"]:checked ~ div {
+    background: red !important;
+ }
+.menuRightMobile ul li a:hover{
+    background: green;
+    text-decoration: none;
+}
+/*End Menu Right Mobile*/
+.menuRightMobile{
+    display: block;
+    background: red;
+}
+.menuRightMobile ul{
+    list-style: none;
+    padding-left: 0;
+    margin:0;
+}
+.menuRightMobile ul li a{
+    display: block;
+    padding:10px 30px;
+    transition: background 0.2s ease-in-out;
+    text-transform: uppercase;
+}
+.menuRightMobile ul li a:hover{
+    background: green;
+    text-decoration: none;
+}
+
+#sectionRight .contentTop{
+    height: 20vw;
+    display: table;
+}
+
+#sectionRight .gallery{}
+#sectionRight .gallery .card{
+    height: 200px;
+    border-radius:0;
+    position: relative;
+    cursor: pointer;
+}
+#sectionRight .gallery .card img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+#sectionRight .gallery .card .hoverMe{
+    display: none;
+    -webkit-animation: slit-in-horizontal 0.45s ease-out both;
+	animation: slit-in-horizontal 0.45s ease-out both;
+}
+#sectionRight .gallery .card:hover .hoverMe{
+    display: table;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    color:white;
+    top:0;
+    left:0;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+#sectionRight .gallery .card .hoverMe .content{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+ @-webkit-keyframes slit-in-horizontal {
+    0% {
+      -webkit-transform: translateZ(-800px) rotateX(90deg);
+              transform: translateZ(-800px) rotateX(90deg);
+      opacity: 0;
+    }
+    54% {
+      -webkit-transform: translateZ(-160px) rotateX(87deg);
+              transform: translateZ(-160px) rotateX(87deg);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: translateZ(0) rotateX(0);
+              transform: translateZ(0) rotateX(0);
+    }
+  }
+  @keyframes slit-in-horizontal {
+    0% {
+      -webkit-transform: translateZ(-800px) rotateX(90deg);
+              transform: translateZ(-800px) rotateX(90deg);
+      opacity: 0;
+    }
+    54% {
+      -webkit-transform: translateZ(-160px) rotateX(87deg);
+              transform: translateZ(-160px) rotateX(87deg);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: translateZ(0) rotateX(0);
+              transform: translateZ(0) rotateX(0);
+    }
+  }
+  
